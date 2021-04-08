@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.view-data {
+  display: grid;
+  grid-template-columns: 49% 2px 49%;
+  column-gap: 2rem;
+  padding: 0 2rem;
+  border: 1px solid black;
+  min-height: 500px;
+}
+
+.divider {
+  background-color: black;
+}
